@@ -1,3 +1,6 @@
+.font{
+    font-family: Arial sans-serif;
+}
 #wrapper {
     width: 1000px;
     height: 1000px;
@@ -16,16 +19,67 @@
 #navigator{
     float:right;
 
+
 }
 #shadedbox{
+    position: absolute;
     width:480px;
     height:554px;
     background-color: rgba(0, 0, 0, .5);
 }
 #footer{
     width:960px;
-    height:200px;
+    height:100px;
     clear: left;
     float: bottom;
     background-color: black;
+    color:white;
+
+
+
+}
+#footertext{
+    line-height: 100px;
+    margin-left: 40%;
+}
+
+#text1{
+    color:white;
+    margin-top: 30%;
+    font-size:30px;
+    margin-left:10%;
+}
+#text2{
+    color:blue;
+    margin-left: 70%;
+    font-size: 25px;
+    text-decoration: none;
+}
+.inline{
+    display:inline;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#about-img-all{
+    clear: left;
+    float:left;
+    width:220px;
+    height:350px;
+}
+#about-text{
+    margin-left:100px;
+    float:left;
+    width:500px;
+}
+#table{
+    clear:bottom;
+    float:right;
+
 }
