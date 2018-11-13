@@ -1,0 +1,18 @@
+#wrapper {
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+}
+#logo{
+    float:left;
+}
+#mainimg{
+    clear: left;
+    float:left;
+    background-image: url("docs/about.png");
+    background-size:cover;
+}
+#navigator{
+    float:right;
+
+}
