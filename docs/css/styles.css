@@ -9,10 +9,23 @@
 #mainimg{
     clear: left;
     float:left;
-    background-image: url("docs/about.png");
-    background-size:cover;
+    background-image: url("4x4-adventure-automobile-1571783.jpg");
+    width:960px;
+    height:554px;
 }
 #navigator{
     float:right;
 
+}
+#shadedbox{
+    width:480px;
+    height:554px;
+    background-color: rgba(0, 0, 0, .5);
+}
+#footer{
+    width:960px;
+    height:200px;
+    clear: left;
+    float: bottom;
+    background-color: black;
 }
